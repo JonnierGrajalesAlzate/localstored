@@ -1,8 +1,39 @@
 body{
-    background-color: aqua;justify-content: center;
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2020/07/03/4-Illustration-background-Nature-lands-Graphics-4539314-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
     display: flex;
 }
 
-.col-md-7 .col-lg-8{
+.mb-3{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px red;
+    margin-top: 5%;
+}
+
+
+.form-control{
     
+    background-color: rgba(194, 190, 190, 0.698);
+    border: 2px solid black;
+}
+
+.form-control::placeholder{
+    color: white;
+}
+
+label{
+    color:white;
+}
+
+.btn{
+    background-color: rgb(209, 255, 4);
+    color: black;
+}
+
+.btn:hover{
+    background-color: rgba(158, 179, 64, 0.678) ;
 }
