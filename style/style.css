@@ -1,0 +1,8 @@
+body{
+    background-color: aqua;justify-content: center;
+    display: flex;
+}
+
+.col-md-7 .col-lg-8{
+    
+}
